@@ -69,7 +69,7 @@ Las clases se asignan dinámicamente desde JavaScript.
 
 ### Opción 2 – Clonando con Git
 1. Clonar el repositorio:
-   git clone https://github.com/TU-USUARIO/TU-REPOSITORIO.git
+   git clone https://github.com/faispuro/gestor-tareas.git
 
 2. Ingresar a la carpeta del proyecto:
    cd TU-REPOSITORIO
