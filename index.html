@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gestor de Tareas</title>
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+    <header class="app-header">
+    <div class="header-content">
+        <h1>Gestor de Tareas</h1>
+        <p>Organizá tus pendientes de forma simple y eficiente</p>
+    </div>
+    </header>
+
+
+  <main>
+
+    <!-- FORMULARIO -->
+    <section class="form-section">
+      <h2>Agregar Tarea</h2>
+      <form id="task-form">
+        <div>
+          <label for="title">Título</label>
+          <input type="text" id="title"/>
+        </div>
+
+        <div>
+          <label for="priority">Prioridad</label>
+          <select id="priority">
+            <option value="">Seleccionar</option>
+            <option value="Baja">Baja</option>
+            <option value="Media">Media</option>
+            <option value="Alta">Alta</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="dueDate">Fecha límite</label>
+          <input type="date" id="dueDate" />
+        </div>
+
+        <div>
+          <label for="description">Descripción</label>
+          <textarea id="description" placeholder="Opcional"></textarea>
+        </div>
+
+        <button type="submit">Agregar Tarea</button>
+      </form>
+    </section>
+        <section class="sort-section">
+            <select id="sort-date">
+            <option value="default">Ordenar por</option>
+            <option value="asc">Fecha más próxima</option>
+            <option value="desc">Fecha más lejana</option>
+        </select>
+    </section>
+
+    <!-- FILTROS -->
+    <section class="filters-section">
+      <button data-filter="all" class="active">Todas</button>
+      <button data-filter="pending">Pendientes</button>
+      <button data-filter="completed">Completadas</button>
+    </section>
+
+    <!-- LISTA DE TAREAS -->
+    <section class="tasks-section">
+      <ul id="task-list"></ul>
+    </section>
+
+    <!-- CONTADORES -->
+    <section class="counter-section">
+      <p>Total: <span id="total-count">0</span></p>
+      <p>Completadas: <span id="completed-count">0</span></p>
+      <p>Pendientes: <span id="pending-count">0</span></p>
+    </section>
+
+  </main>
+   
+  <!-- FOOTER -->
+    <footer>
+    <p>© 2026 - Gestor de Tareas | Desarrollado por Francisco</p>
+    </footer>
+
+
+  <script src="js/app.js"></script>
+</body>
+</html>

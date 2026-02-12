@@ -1,0 +1,207 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: #f3f4f6;
+  color: #333;
+}
+
+/* HEADER */
+.app-header {
+  background: white;
+  padding: 40px 20px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  margin-bottom: 30px;
+}
+
+.app-header h1 {
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+
+.app-header p {
+  color: #6b7280;
+}
+
+/* MAIN */
+main {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* SECCIONES */
+section {
+  background: white;
+  padding: 25px;
+  margin-bottom: 25px;
+  border-radius: 14px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.05);
+}
+
+/* TITULO FORM */
+.form-section h2 {
+  margin-bottom: 20px;
+  font-size: 20px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 10px;
+}
+
+/* FORM */
+form div {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+label {
+  font-size: 14px;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+input,
+select,
+textarea {
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  transition: 0.2s ease;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: #6366f1;
+  box-shadow: 0 0 0 3px rgba(99,102,241,0.15);
+  outline: none;
+}
+
+textarea {
+  resize: none;
+}
+
+/* BOTON PRINCIPAL */
+form button {
+  background: #6366f1;
+  color: white;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.25s ease;
+}
+
+form button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(99,102,241,0.3);
+}
+
+/* FILTROS */
+.filters-section {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.filters-section button {
+  padding: 8px 16px;
+  border-radius: 20px;
+  border: none;
+  background: #e5e7eb;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.filters-section button.active {
+  background: #6366f1;
+  color: white;
+  box-shadow: 0 4px 12px rgba(99,102,241,0.3);
+}
+
+/* LISTA */
+#task-list {
+  list-style: none;
+}
+
+/* TAREA */
+.task-item {
+  padding: 18px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  background: #f9fafb;
+  border-left: 6px solid transparent;
+  transition: 0.2s ease;
+}
+
+.task-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.task-item.completed {
+  opacity: 0.6;
+  text-decoration: line-through;
+}
+
+/* COLORES PRIORIDAD */
+.priority-baja {
+  border-left: 6px solid #22c55e;
+}
+
+.priority-media {
+  border-left: 6px solid #facc15;
+}
+
+.priority-alta {
+  border-left: 6px solid #ef4444;
+}
+
+/* BOTONES DE TAREA */
+.task-buttons {
+  margin-top: 12px;
+  display: flex;
+  gap: 10px;
+}
+
+.task-buttons button {
+  padding: 6px 12px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-size: 13px;
+  transition: 0.2s ease;
+}
+
+.complete-btn {
+  background: #22c55e;
+  color: white;
+}
+
+.edit-btn {
+  background: #facc15;
+}
+
+.delete-btn {
+  background: #ef4444;
+  color: white;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  color: #6b7280; /* gris, se ve bien con fondo claro */
+  font-size: 14px;
+  background: #f9fafb; /* opcional: darle fondo para que se note */
+  border-top: 1px solid #ddd; /* opcional: separa el footer */
+}
