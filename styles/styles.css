@@ -200,8 +200,8 @@ footer {
   text-align: center;
   padding: 20px;
   margin-top: 40px;
-  color: #6b7280; /* gris, se ve bien con fondo claro */
+  color: #6b7280; 
   font-size: 14px;
-  background: #f9fafb; /* opcional: darle fondo para que se note */
-  border-top: 1px solid #ddd; /* opcional: separa el footer */
+  background: #f9fafb; 
+  border-top: 1px solid #ddd; 
 }
