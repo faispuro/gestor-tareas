@@ -83,9 +83,8 @@ No requiere instalación de dependencias ni servidor.
 
 ## 🌐 Deploy
 
-La aplicación puede desplegarse en:
-- GitHub Pages
-- Vercel
+La aplicación está desplegada en GitHub Pages:  
+[https://faispuro.github.io/gestor-tareas/](https://faispuro.github.io/gestor-tareas/)
 
 ---
 
