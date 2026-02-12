@@ -23,6 +23,7 @@ Aplicación web desarrollada con HTML5, CSS3 y JavaScript puro para gestionar ta
   - Todas
   - Pendientes
   - Completadas
+    
 ✔ Botón activo visual en el filtro seleccionado  
 ✔ Mensajes dinámicos cuando no hay tareas  
 ✔ Contadores automáticos (Total / Completadas / Pendientes)  
